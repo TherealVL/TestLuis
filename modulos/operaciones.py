@@ -9,3 +9,6 @@ class Operaciones():
 
 	def resta(self):
 		return self.num_a - self.num_b 
+
+	def multiplicar(self):
+		return self.num_a * self.num_b 

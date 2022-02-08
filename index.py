@@ -3,7 +3,8 @@ from modulos.operaciones import	Operaciones as op
 print("""Qué deseas hacer?:
 		1.-Sumar
 		2.-Restar
-		3.-Salir
+		3.-multiplicar
+		4.-Salir
 		""")
 
 opc = int(input("Elija una opción"))
@@ -15,6 +16,9 @@ if opc == 1:
 
 elif opc == 2:
 	print(f"la resta es {objeto.resta()}")
+
+elif opc == 3:
+	print(f"la multiplicación es {objeto.multiplicar()}")
 
 else:
 	print("Error")
